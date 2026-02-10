@@ -5,8 +5,8 @@ class Accesslint < Formula
   license "MIT"
 
   on_macos do
-    url "https://github.com/SyncTek-LLC/AccessLint/releases/download/v#{version}/accesslint-#{version}.artifactbundle.zip"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    url "https://github.com/mauricecarrier7/AccessLint-Distribution/releases/download/v#{version}/accesslint-#{version}.artifactbundle.zip"
+    sha256 "f1285a2a2d9fa6396d6d16711e41ac758eafe3d1ec02f25b31591668c6cfe7a9"
   end
 
   def install
