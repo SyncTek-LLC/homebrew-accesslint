@@ -1,12 +1,12 @@
 class Accesslint < Formula
   desc "Static accessibility analysis for iOS/Swift apps"
   homepage "https://github.com/SyncTek-LLC/AccessLint"
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
 
   on_macos do
     url "https://github.com/SyncTek-LLC/AccessLint-Distribution/releases/download/v#{version}/accesslint-#{version}.artifactbundle.zip"
-    sha256 "f1285a2a2d9fa6396d6d16711e41ac758eafe3d1ec02f25b31591668c6cfe7a9"
+    sha256 "dd33b21efe1f72da20814022a8f91d243d83081da71c64728cc9b4348f06801d"
   end
 
   def install
